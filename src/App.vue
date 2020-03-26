@@ -1,7 +1,8 @@
 <template>
     <div class="app-container">
         <!-- 头部 Header 区域 -->
-        <mt-header fixed title="Vue-first"></mt-header>
+        <mt-header fixed title="Vue-first">
+		</mt-header>
 
         <!-- 中间  公共部分 -->
 		<transition>

@@ -2,7 +2,7 @@
     <div>
         <!-- 轮播图 区域 -->
         <mt-swipe :auto="4000">
-            <mt-swipe-item v-for="item in lunboList" :key="item.id">
+            <mt-swipe-item v-for="item in lunboList" :key="item._id">
                 <img :src="item.img" alt="">
             </mt-swipe-item>
         </mt-swipe>

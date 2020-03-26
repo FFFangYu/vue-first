@@ -24,6 +24,8 @@ import App from './App.vue'
 
 //设置请求根路径
 Vue.http.options.root='http://localhost:5000'
+// 设置post 表单数据格式
+Vue.http.options.emulateJSON = true;
 
 import moment from 'moment'
 //过滤器
