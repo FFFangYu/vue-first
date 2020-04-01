@@ -128,7 +128,8 @@ import '../src/lib/mui/css/icons-extra.css'
 //导入App.vue组件
 import App from './App.vue'
 
-//设置请求根路径
+//设置请求根路径  
+//
 Vue.http.options.root='http://192.168.124.7:5000'
 // 设置post 表单数据格式
 Vue.http.options.emulateJSON = true;
